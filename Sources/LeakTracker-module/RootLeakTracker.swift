@@ -6,7 +6,7 @@
 //
 
 ///
-public final class RootLeakTracker {
+public final class RootLeakTracker: Sendable {
     
     ///
     public let name: String?

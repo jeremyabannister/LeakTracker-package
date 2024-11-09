@@ -6,7 +6,7 @@
 //
 
 ///
-public struct LeakTracker {
+public struct LeakTracker: Sendable {
     
     ///
     @available(macOS 10.15, iOS 13, watchOS 6, tvOS 13, *)
